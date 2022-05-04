@@ -29,10 +29,12 @@ Gem::Specification.new do |s|
     s.metadata["source_code_uri"] = "https://github.com/solidusio-contrib/solidus_recently_viewed"
   end
 
+  solidus_version = [">= 1.0", "< 4"]
+
   s.add_dependency 'coffee-script'
   s.add_dependency 'deface'
   s.add_dependency 'sassc-rails'
-  s.add_dependency 'solidus_core', ['>= 2.4.0', '< 4']
+  s.add_dependency 'solidus_core', solidus_version
   s.add_dependency 'solidus_support', '~> 0.8'
 
 
