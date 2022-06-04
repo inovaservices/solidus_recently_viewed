@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.summary     = 'Adds recently viewed products to Spree'
   s.description = s.summary
 
-  s.required_ruby_version = '~> 2.5'
+  s.required_ruby_version = '>= 2.4'
 
   s.authors     = ['Roman Smirnov', 'Brian Quinn', 'Allison Reilly']
   s.email       = 'acreilly3@gmail.com'
@@ -30,9 +30,9 @@ Gem::Specification.new do |s|
   end
 
   s.add_dependency 'coffee-script'
-  s.add_dependency 'deface'
   s.add_dependency 'sassc-rails'
-  s.add_dependency 'solidus_core', ['>= 2.4.0', '< 4']
+  s.add_dependency 'deface'
+  s.add_dependency 'solidus_core', ['>= 1.0', '< 4']
   s.add_dependency 'solidus_support', '~> 0.8'
 
 
