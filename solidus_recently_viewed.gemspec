@@ -31,8 +31,6 @@ Gem::Specification.new do |s|
 
   solidus_version = [">= 1.0", "< 4"]
 
-  s.add_dependency 'coffee-script'
-  s.add_dependency 'deface'
   s.add_dependency 'sassc-rails'
   s.add_dependency 'solidus_core', solidus_version
   s.add_dependency 'solidus_support', '~> 0.8'
